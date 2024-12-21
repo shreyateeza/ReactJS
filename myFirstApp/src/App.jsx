@@ -49,7 +49,7 @@ import CounterClass from './components/CounterClass'
 import SimpleForm from './components/SimpleForm'
 import TemperatureDisplay from './components/TemperatureDisplay'
 import TemperatureInput from './components/TemperatureInput'
-
+import Router from './components/Router'
 function App() {
   //state updation will happen only where the state is defined 
   const [temp,setTemp] = useState('');
@@ -59,7 +59,7 @@ function App() {
   return (
     <div>
       {/* <Counter></Counter> */}
-      <CounterClass></CounterClass>
+      {/* <CounterClass></CounterClass> */}
       {/* <CounterClass></CounterClass> */}
       {/* <SimpleForm></SimpleForm> */}
       {/* <TemperatureInput temp = {temp} handleTempChange = {handleTempChange}></TemperatureInput>
@@ -68,3 +68,5 @@ function App() {
     </div>
   )
 }
+
+export default App;
