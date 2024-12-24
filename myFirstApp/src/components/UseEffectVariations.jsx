@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function UseEffectvariations() {
+function UseEffectVariations() {
     // console.log("constructor is called");
   const [count, setCount] = useState(0);
   const [msg, setMsg] = useState("Hello");
